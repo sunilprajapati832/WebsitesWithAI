@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero-section">
+  <div class="container hero-container">
+    <div class="hero-text">
+      <h2>Empowering Your Educational Journey</h2>
+      <p>Leading the way in career counseling and skill development with innovative technology and expert guidance.</p>
+      <a href="/services" class="btn-primary">Explore Our Services</a>
+    </div>
+    <div class="hero-image">
+      <img src="{{ url_for('static', filename='images/hero.jpg') }}" alt="Education" />
+    </div>
+  </div>
+</section>
+
+<section class="services-section container">
+  <h3>Our Core Services</h3>
+  <div class="services-cards">
+    <div class="service-card">
+      <i class="fas fa-briefcase"></i>
+      <h4>Career Counseling</h4>
+      <p>Personalized guidance to help you choose the right career path.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <h4>School Coaching</h4>
+      <p>Comprehensive coaching programs tailored for academic excellence.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-tools"></i>
+      <h4>Skill Development</h4>
+      <p>Workshops and courses to develop essential skills for your future.</p>
+    </div>
+  </div>
+</section>
+{% endblock %}
