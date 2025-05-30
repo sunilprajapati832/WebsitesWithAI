@@ -43,3 +43,13 @@ While the front-end is static (HTML/CSS), this project is built with future inte
 ## 📷 Preview
 
 EDUWebsiteAI.png
+
+📌 Future Enhancements
+JavaScript-based ChatGPT integration (OpenAI API).
+
+Mobile responsiveness enhancements.
+
+Contact form functionality using Flask/PHP or a third-party service.
+
+🤝 Contributing
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
