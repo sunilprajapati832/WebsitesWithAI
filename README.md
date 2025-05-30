@@ -10,4 +10,10 @@ Welcome to my project repository showcasing a modern, responsive website integra
 - 📚 **Reusable Layout**: Common base layout using `base.html`.
 
 ## 🗂️ Project Structure
+├── about.html
+├── base.html
+├── contact.html
+├── index.html
+├── services.html
+├── style.css
 
